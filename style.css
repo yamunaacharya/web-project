@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;  
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+#logo{
+    width: 120px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#menu-items{
+    display: flex;
+    gap: 30px;
+    color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#menu-items a:hover{
+     text-decoration: underline;
+}
+
+#nav-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.btns{
+    background-color: white;
+    color: black;
+    padding:10px 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.btns:hover{
+    background-color: red;
+}
+ 
+.ri-menu-line{
+    font-size: 25px;
+}
+.ri-bookmark-line{
+    font-size: 25px;
+}
+#nav-buttons i:hover{
+    color: red;
+    transform: all.42 ease;
+}
+
+section{
+    padding: 5% 10px;
+}
+ .main-home{
+    height: 100vh;
+    background-image: url(main\ img.webp);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    text-align: right;
+}
+.main-text{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px;
+
+}
+.main-text h1{
+    color: red;
+} 
+h2{
+    margin-top: 20px;
+}
+.catagorie{
+    display: flex;
+    padding: 10px;
+}
+.images img{
+    width: 365px;
+    height: 400px;
+    display: flex;
+    margin: 10px;
+}
+.text{
+    text-align: center;
+}
+.text:hover{
+    text-decoration: underline;
+}
+/* tending products */
+h1.heading{
+    text-align: center;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.sec{
+    padding: 10px 5%;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.product .cart{
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+.product .cart .img{
+    height: 250px;
+    width: 100px;
+    align-items: center;
+}
+.product .cart .des{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.product .cart .title{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    padding: 0 20px;
+}
+.product .cart .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.product .cart .box .price{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.product .cart .box .btn{
+    font-size: 13px;
+    color: black;
+    padding: 10px 18px; 
+    border: 1px solid black;
+    border-radius: 20px; 
+
+}
+.product .cart .box .btn:hover{
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.facilities p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.head{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.facility-col{
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.facility-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.facility-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.last-text{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.last-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+.last-text h1 sup{
+    font-size: 20px;
+}
+
+footer{
+    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.contact-info{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+    text-align: center;
+};
+
+.contact-info h4{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contact-info p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    
+}
+social-media i{
+    color: black;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+}
+.info :hover{
+    text-decoration: underline;
+}
+.payment{
+    background-color: grey;
+   font-size: 25px;
+   text-align: center;
+}
+.end-text{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-weight: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+    
+    
+
