@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <style>
+        *{
+           padding: 0;
+           margin: 0;
+           box-sizing: border-box;
+        }
+
+        html,body{
+            width: 100%;
+            height: 100%;
+            font-family: "Poppins", sans-serif;
+        }
+        h1{
+            text-align: center;
+            margin: 10px;
+        }
+        
+        .product{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+            gap: 2rem;
+        }
+        .row{
+            position: relative;
+            transition: all .40s;
+
+        }
+        .row img{
+            width: 100;
+            height: auto;
+            transition: all .40s;
+
+        }
+        .row img:hover{
+            transform: scale(0.9);
+
+        }
+        .heart-icon i{
+            position: absolute;
+            right: 0;
+            font-size: 25px;
+        }
+        .heart-icon i:hover{
+            color: red;
+        } 
+        .rattings i:hover{
+            color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="title">
+    <h1>Clothing</h1>
+    </div> 
+    <div class="product">
+        <div class="row">
+            <img src="https://us.brandymelville.com/cdn/shop/files/MH707N-Z166SS6600PZ-01_360x.jpg?v=1716409252" alt="">
+        <div class="heart-icon">
+            <i class="ri-heart-line"></i>
+        </div>
+        <div class="rattings">
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-half-line"></i>
+        </div>
+        <div class="price">
+            <h4>Larissa Top</h4>
+            <p>Rs.1499</p>
+        </div>
+        </div>
+
+        <div class="row">
+            <img src="https://us.brandymelville.com/cdn/shop/files/MH361VB-Z316S16200Z336-01_360x.jpg?v=1711402191" alt="">
+        <div class="heart-icon">
+            <i class="ri-heart-line"></i>
+        </div>
+        <div class="rattings">
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-half-line"></i>
+        </div>
+        <div class="price">
+            <h4>Olive Skirt</h4>
+            <p>Rs.2500</p>
+        </div>
+        </div>
+
+        <div class="row">
+            <img src="https://us.brandymelville.com/cdn/shop/files/MCH002L-Z140SW450000-003_360x.jpg?v=1715693940" alt="">
+        <div class="heart-icon">
+            <i class="ri-heart-line"></i>
+        </div>
+        <div class="rattings">
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-half-line"></i>
+        </div>
+        <div class="price">
+            <h4>Linen Pants</h4>
+            <p>Rs.3000</p>
+        </div>
+        </div>
+        <div class="row">
+            <img src="https://us.brandymelville.com/cdn/shop/files/MCH002-Z087SZ19000L_06_360x.jpg?v=1711460330" alt="">
+        <div class="heart-icon">
+            <i class="ri-heart-line"></i>
+        </div>
+        <div class="rattings">
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-half-line"></i>
+        </div>
+        <div class="price">
+            <h4>Sweat Pants</h4>
+            <p>Rs.1500</p>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>
